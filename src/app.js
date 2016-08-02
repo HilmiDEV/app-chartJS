@@ -24,7 +24,7 @@ var data = [{
         color: '#6AE128'
     }];
 
-var chart = new Chart(context, {
+var chartConfig = {
     type: 'pie',
     data: {
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
@@ -59,4 +59,6 @@ var chart = new Chart(context, {
             }]
         }
     }
-});
+}
+
+var chart = new Chart(context, chartConfig);
