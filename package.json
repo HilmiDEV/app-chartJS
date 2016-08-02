@@ -1,0 +1,15 @@
+{
+  "name": "app-chart.js",
+  "version": "1.0.0",
+  "description": "Simple app with Chart.JS library",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite-server"
+  },
+  "author": "Hilmi BOUALLEGUE",
+  "license": "ISC",
+  "dependencies": {
+    "chartjs": "^0.3.24",
+    "lite-server": "^2.2.2"
+  }
+}

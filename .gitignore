@@ -1,0 +1,13 @@
+
+.idea/
+*.iml
+
+# NodeJS
+node/
+node_modules/
+
+# Build
+dist/
+npm-debug.log
+temp/
+
